@@ -1,0 +1,81 @@
+body {
+    background-image: url(teglafal.jpg);
+    display: flex;
+    justify-content: center;
+}
+
+.tarolo {
+    box-sizing: border-box;
+    width: 80%;
+    background-color: #333333;
+}
+
+#kep1 {
+    width: 100%;
+}
+
+#kep2 {
+    width: 12%;
+    float: left;
+    margin-right: 30px;
+    clear: both;
+    display: flex;
+}
+
+h1 {
+    color: beige;
+    font-family: arial, verdana, sans-serif;
+    font-size: 15px;
+    display: flex;
+}
+
+ul {
+    color: beige;
+    font-family: arial, verdana, sans-serif;
+    font-size: 10px;
+    text-align: justify;
+}
+
+#felsorolas {
+    box-sizing: border-box;
+    border-style: solid;
+    border-color: white;
+    padding: 10px;
+}
+
+#jog {
+    box-sizing: border-box;
+    border-style: solid;
+    border-color: white;
+    color: beige;
+    background-color: darkgrey;
+}
+
+#menu {
+    padding: 10px;
+    color: red;
+    border-style: solid;
+    border-color: white;
+    background-color: darkgrey;
+}
+
+p {
+    color: black;
+    text-align: center;
+    font-family: arial, verdana, sans-serif;
+}
+
+a {
+    border-style: solid;
+    border-color: white;
+    border-radius: 12px;
+    color: red;
+    padding: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: arial, verdana, sans-serif;
+}
+
+a:hover {
+    color:white
+}
